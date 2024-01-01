@@ -1,0 +1,55 @@
+body{
+    font-family:sans-serif;
+    margin-top: 0;
+}
+header{
+    background-color: rgb(15, 53, 205);
+    display: block;
+    height: 40px;
+    width: 610px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+    color: rgb(15, 53, 205);
+}
+
+.topic-date{
+    width: 600px;
+    margin: 0 auto;
+}
+.topic-date p{
+    display: inline;
+    line-height: 180%;
+}
+
+#html{
+    width: 80%;
+    margin-left: 30px;
+    /* border-bottom: 1px solid gray; */
+}
+
+#date{
+    margin-left: 106px;
+    /* border-bottom: 1px solid gray; */
+}
+
+.list-study{
+    border: 1px solid gray;
+    width: 609px;
+    display: block;
+    margin: 0 auto;
+}
+
+.list-study div{
+    padding: 14px;
+}
+
+.list-study ul li{
+    line-height: 150%; 
+}
+
+.list-study div h4{
+    color:  rgb(15, 53, 205);
+}
