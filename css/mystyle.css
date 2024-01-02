@@ -1,55 +1,96 @@
-body{
-    font-family:sans-serif;
-    margin-top: 0;
-}
-header{
-    background-color: rgb(15, 53, 205);
-    display: block;
-    height: 40px;
-    width: 610px;
-    margin: 0 auto;
+*{
+  box-sizing: border-box;
 }
 
-.title{
-    text-align: center;
-    color: rgb(15, 53, 205);
+body {
+  font-family: sans-serif;
+  margin-top: 0;
+  width: 100%;
 }
 
-.topic-date{
-    width: 600px;
-    margin: 0 auto;
-}
-.topic-date p{
-    display: inline;
-    line-height: 180%;
+header {
+  background-color: rgb(15, 53, 205);
+  display: block;
+  height: 40px;
+  width: 46%;
+  margin: 0 auto;
 }
 
-#html{
+@media screen and (max-width: 800px) {
+  header {
     width: 80%;
-    margin-left: 30px;
-    /* border-bottom: 1px solid gray; */
+  }
 }
 
-#date{
-    margin-left: 106px;
-    /* border-bottom: 1px solid gray; */
+a{
+    text-decoration: none;
+}
+.title {
+  text-align: center;
+  color: rgb(15, 53, 205);
+  margin: 10px auto;
 }
 
-.list-study{
-    border: 1px solid gray;
-    width: 609px;
-    display: block;
-    margin: 0 auto;
+@media screen and (max-width: 800px) {
+  .title {
+    width: 80%;
+  }
 }
 
-.list-study div{
-    padding: 14px;
+.topic-date {
+  width: 46%;
+  margin: 0 auto;
 }
 
-.list-study ul li{
-    line-height: 150%; 
+.topic-date p {
+  display: inline;
+  line-height: 180%;
 }
 
-.list-study div h4{
-    color:  rgb(15, 53, 205);
+@media screen and (max-width: 800px) {
+  .topic-date {
+    width: 80%;
+  }
+}
+
+#html {
+  margin-left: 30px;
+  /* border-bottom: 1px solid gray; */
+}
+
+#date {
+  margin-left: 106px;
+  /* border-bottom: 1px solid gray; */
+}
+
+.list-study {
+  border: 1px solid gray;
+  width: 46%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+  .list-study {
+    width: 80%;
+  }
+}
+
+.list-study div {
+  padding: 14px;
+}
+
+li:hover {
+  display: inline;
+  background-color: rgb(15, 53, 205, 0.5);
+  transition-duration: 0.7s;
+  border-radius: 5%;
+}
+
+.list-study ul li {
+  line-height: 150%;
+}
+
+.list-study div h4 {
+  color: rgb(15, 53, 205);
 }
