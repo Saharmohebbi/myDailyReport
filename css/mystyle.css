@@ -1,5 +1,6 @@
-*{
+* {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
@@ -22,9 +23,10 @@ header {
   }
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
+
 .title {
   text-align: center;
   color: rgb(15, 53, 205);
@@ -34,6 +36,7 @@ a{
 @media screen and (max-width: 800px) {
   .title {
     width: 80%;
+    font-size: 125%;
   }
 }
 
@@ -55,12 +58,10 @@ a{
 
 #html {
   margin-left: 30px;
-  /* border-bottom: 1px solid gray; */
 }
 
 #date {
-  margin-left: 106px;
-  /* border-bottom: 1px solid gray; */
+  margin-left: 116px;
 }
 
 .list-study {
@@ -88,9 +89,10 @@ li:hover {
 }
 
 .list-study ul li {
-  line-height: 150%;
+  line-height: 170%;
 }
 
 .list-study div h4 {
   color: rgb(15, 53, 205);
 }
+/*  */
